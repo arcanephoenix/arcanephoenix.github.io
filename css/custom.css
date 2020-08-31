@@ -1,0 +1,13 @@
+/*
+a .fab {
+  color: #7e7979;
+}
+
+a .fab:hover {
+  color: #000000;
+}
+*/
+
+a:hover {
+  text-decoration: none;
+}
