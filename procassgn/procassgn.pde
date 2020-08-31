@@ -23,7 +23,7 @@ int color3b = 0;
 
 
 void setup() {
-  size(1280,720);
+  size(400,400);
   smooth();
   fill(255,255,255);
   //stroke(255,255,255);
@@ -44,7 +44,6 @@ void draw() {
 
 void resetFlag() {
   flag_ratio = int(random(5));
-  print("ratio is " + flag_ratio);
   flag_pattern = int(random(3));
   flag_orientation = int(random(2));
   color1r = int(random(256));
